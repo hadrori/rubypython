@@ -116,7 +116,6 @@ class RubyPython::Interpreter
         @locations << File.join("/opt/lib", name)
         @locations << File.join("/usr/local/lib", name)
         @locations << File.join("/usr/lib", name)
-        @locations << File.join("/usr/lib/x86_64-linux-gnu", name)
       end
     end
 
